@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color:black ;
+    padding: 18px;
+    display: flex;
+    justify-content: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0px 10px;
+}
