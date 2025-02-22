@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: palevioletred;
+        }
+
+        .container {
+            background-color: white;
+            width: 30%;
+            margin: auto;
+            padding: 1% 2%;
+            border-radius: 20px;
+        }
+
+        .form-field input,.form-field select {
+            width:90%;
+            padding: 10px;
+
+        }
+        button{
+            background-color: green;
+            color: white;
+            border: none;
+            width: 45%;
+            border-radius: 10px;
+            font-size: 1.3rem;
+        }
+        @media (max-width:436px){
+            .container{
+                width: 90%;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <form class="container" action="./login.html">
+        <h1 class="title">register</h1>
+        <p class="form-field">
+            <input type="text" placeholder="enter your name" required />
+        </p>
+        <p class="form-field">
+            <input type="email" placeholder="enter email id" required />
+        </p>
+        <p class="form-field">
+            <input type="password" placeholder="enter your password" required />
+        </p>
+        <p class="form-radio">
+            <input type="radio" name="gender" />
+            male
+            <input type="radio" name="=gender" />
+            female
+        </p>
+        <p class="form-field">
+            <input type="date" placeholder="enter date" required />
+        </p>
+        <p class="form-field">
+            <select required>
+                <option value="">select your state</option>
+                <option value="">AP</option>
+                <option value="">TS</option>
+                <option value="">MH</option>
+                <option value="">HR</option>
+                <option value="">DL</option>
+                <select>
+        </p>
+        <button>submit</button>
+    </form>
+</body>
+
+</html>
